@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Syne Mono', monospace;
+    background:  url("./img/1.jpeg");
+    color: #333;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #f6f5f1;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    align-self: center;
+    color: red;
+    font-weight:bold ;
+
+}
+p{
+    font-weight:bold ;
+    font-size: 20px;
+}
+label{
+    color: red;
+    font-weight: bold;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+.lowOrHi{
+    color: white;
+}
+
+.rightAnswer {
+    color: green;
+}
+
+button{
+    background: #174ed9;
+    border: none;
+    outline: none;
+    color: white;
+;
+}
